@@ -1,6 +1,6 @@
 ### create a user on all machines ( controller & all targets )
 
-	useradd ansiblebot -m -d /home/naresh -s /bin/bash
+	useradd ansiblebot -m -d /home/ansiblebot -s /bin/bash
 
 ### add user to sudoers for root previliges  on all machines ( all targets )
 
