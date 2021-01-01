@@ -6,6 +6,10 @@
 
 	useradd ansiblebot -m -d /home/ansiblebot -s /bin/bash
 
+### To know whether user is created or not
+
+	id ansiblebot
+
 ### add user to sudoers for root previliges  on all machines ( all targets )
 
 	echo -e 'ansiblebot  ALL=(ALL)  NOPASSWD:  ALL' > /etc/sudoers.d/ansiblebot
