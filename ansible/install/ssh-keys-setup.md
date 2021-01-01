@@ -1,3 +1,7 @@
+## run it as a root user ( controller & all targets )
+
+	sudo su -
+	
 ### create a user on all machines ( controller & all targets )
 
 	useradd ansiblebot -m -d /home/ansiblebot -s /bin/bash
