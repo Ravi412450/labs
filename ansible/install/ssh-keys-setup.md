@@ -10,7 +10,7 @@
 
 	id ansiblebot
 
-### add user to sudoers for root previliges  on all machines ( all targets )
+### add user to sudoers for root previliges  on all machines ( controller & all targets )
 
 	echo -e 'ansiblebot  ALL=(ALL)  NOPASSWD:  ALL' > /etc/sudoers.d/ansiblebot
 
